@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dice Roller</title>
+    <link rel="stylesheet" href="./stylesheets/style.css">
 </head>
 
 <body>
@@ -12,10 +13,17 @@
 
     <input type="text" id="name" name="name" required minlength="1" maxlength="2" size="12">
 
-    <button class="roll button" type="button">
+    <button class="roll-button" type="button">
         Roll!
     </button>
 
+    <div id="total-number">Total:<span>_</span></div><br>
+
+    <button class="all-rolls">Show All Rolls</button>
+
+    <ol></ol>
+
+    <script src="./javascript/main.js"></script>
 </body>
 
 </html>
